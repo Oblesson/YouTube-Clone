@@ -1,0 +1,681 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Lora:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ----------------container---------------- -->
+    <div class="container">
+      <!-- --------------------aside starts--------------------- -->
+      <aside>
+        <!-- ----------------------sidebar nav-------------------------- -->
+        <div class="sidebar">
+          <div class="logo_menu">
+            <button class="menu">
+              <i class="fa-regular fa-bars icon-primary"></i>
+            </button>
+            <div class="logo">
+              <img src="./img/logodark.png" alt="" />
+            </div>
+          </div>
+          <div class="sidenav_scroll">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-sharp fa-solid fa-house"></i>
+                  <p>Home</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-sharp fa-thin fa-paperclip"></i>
+                  <p>Shorts</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-tv"></i>
+                  <p>Subscriptions</p>
+                </a>
+              </li>
+              <hr />
+              <div class="title">You</div>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-clock-rotate-left"></i>
+                  <p>History</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-clock"></i>
+                  <p>Watch later</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-thumbs-up"></i>
+                  <p>Liked videos</p>
+                </a>
+              </li>
+              <hr />
+              <div class="title">Subscriptions</div>
+              <li>
+                <a href="#">
+                  <div class="user-profile"></div>
+                  <p>Ofure</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-plus-circle"></i>
+                  <p>Browse Channels</p>
+                </a>
+              </li>
+              <hr />
+              <div class="title">Explore</div>
+
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-flame"></i>
+                  <p>Trending</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-music-alt"></i>
+                  <p>Music</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-gamepad-modern"></i>
+                  <p>Gaming</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-newspaper"></i>
+                  <p>News</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-trophy"></i>
+                  <p>Sports</p>
+                </a>
+              </li>
+              <hr />
+              <div class="title">More from YouTube</div>
+
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-youtube icon-secodary"></i>
+                  <p>YouTube Premium</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-music-alt"></i>
+                  <p>YouTube Music</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-gamepad-modern"></i>
+                  <p>YouTube Kids</p>
+                </a>
+              </li>
+              <hr />
+
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-gear"></i>
+                  <p>Settings</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-flag"></i>
+                  <p>Report history</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-circle-question"></i>
+                  <p>Help</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-thin fa-message-exclamation"></i>
+                  <p>Send feedback</p>
+                </a>
+              </li>
+              <hr />
+            </ul>
+          </div>
+        </div>
+        <!-- ----------------------sidebar ends--------------------- -->
+      </aside>
+      <!-- --------------------aside ends--------------------- -->
+      <main>
+        <div class="topnav">
+          <div class="nav">
+            <div class="search-container">
+              <div class="search_item">
+                <input
+                  type="text"
+                  name="search"
+                  id=""
+                  class="search_input"
+                  placeholder="Search"
+                />
+                <button>
+                  <i class="fa-regular fa-search icon-primary"></i>
+                </button>
+              </div>
+              <div class="voice_search">
+                <i class="fa-regular fa-solid fa-microphone icon-primary"></i>
+              </div>
+            </div>
+            <div class="nav_items">
+              <button class="video">
+                <i class="fa-regular fa-video-plus icon-primary"></i>
+              </button>
+              <button class="notification">
+                <i class="fa-regular fa-bell icon-primary"></i>
+              </button>
+
+              <button class="user_profile">
+                <a href="../assets/heavenpls/index.html">O</a>
+              </button>
+            </div>
+          </div>
+          <div class="nav_scroll_options">
+            <div>All</div>
+            <div>
+              <a href="https://youtu.be/oyQgm3S8wDE">Music</a>
+            </div>
+            <div>
+              <a href="">Playlists</a>
+            </div>
+            <div>
+              <a href="">Mixes</a>
+            </div>
+            <div>
+              <a href="">DJ</a>
+            </div>
+            <div>
+              <a href="">Trending</a>
+            </div>
+            <div>
+              <a href="">Watched</a>
+            </div>
+            <div>
+              <a href="">Animated</a>
+            </div>
+            <div>
+              <a href="">Nollywood</a>
+            </div>
+            <div>
+              <a href="">Afrobeats</a>
+            </div>
+            <div>
+              <a href="">Hollywood</a>
+            </div>
+            <div>
+              <a href="">Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="boxes">
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source src="./img/ofure.MP4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source src="./img/Ofure0.MP4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/SNAP_20230503-123911.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/SNAP_20230105-194351.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/recorded-7140583276732.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/recorded-549465985116.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/ips-C4B2ADE3-6E47-4335-9B84-5479C08AD84B.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/filtered-E7C83853-62BA-48EF-9C8D-4F0A4EE5811E.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/filtered-DC66414C-3E4F-485A-8C37-57C38B94D376.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/D0114C6B-E4AE-40B3-8528-AAA223905336.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/6D593E1D-053E-4FE8-A2B8-408882F07317.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/0BFD48D8-8C79-4A5E-87A6-58087BAE1BF6.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/39775434-CCFB-4B97-B0DA-C159ECB395E0.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/6A97ADF6-A51D-4588-A4D5-F46FA77C54EC.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_1 boix">
+              <div class="video_space">
+                <video width="" height="" controls autoplay>
+                  <source
+                    src="./img/e13327bc-da41-43ee-ba82-a78811d46e57.MP4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="caption-box">
+                <div class="vid_user">
+                  <div class="user">
+                    <img src="./img/Ofure.Jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="vid_article">
+                  <div class="vid-title">
+                    <h4>
+                      This playlist is perfect for a lazy Sunday morning or
+                      afternoon.
+                    </h4>
+                  </div>
+                  <div class="vid_content">
+                    <div class="small">Happy Beats</div>
+                    <div class="small">46.7K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
